@@ -1,0 +1,55 @@
+body {
+    background-color: #d8cfcf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(111, 13, 232);
+}
+
+#title {
+    background-color: rgb(79, 11, 80);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+#rickAndMorty {
+    width: min(100%, 1000px);
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.caja {
+    width: 230px;
+    margin-top: 100px;
+    background-color: rgb(230, 194, 233);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.img {
+    width: 100%;
+}
+
+.name {
+    color: #43025399;
+    font-weight: bold;
+}
+
+#buscador {
+    position: fixed;
+    margin-top: 150px;
+
+}
+
+.btn_lupa{
+    position: fixed;
+    width: 2%;
+    height: 2%;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+ 

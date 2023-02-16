@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">RICK AND MORTY</h1>
+
+    <div>
+        <input type="text" name="buscador" id="buscador" placeholder="buscar">
+    </div>
+    <div onClick="buscarNombre()">
+        <ul><img id="img" class="btn_lupa" src="lupa.png"></ul>
+        <p style="visibility: hidden;"></p>
+    </div>
+
+    <div id="rickAndMorty"></div>
+
+    <script src="scripts.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <div id="TableList"></div>
+    <div id = "buttons">
+    <a href="javascript:prevPage()" id="btn_prev">Prev</a>&nbsp;
+    <a href="javascript:nextPage()" id="btn_next">Next</a><br>
+    page: <span id="page"></span>
+</div>
+
+</body>
+
+</html>
